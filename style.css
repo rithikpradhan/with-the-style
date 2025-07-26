@@ -326,7 +326,6 @@ body{
 /* Plans Section */
 
 .plans-section{
-
     width: 393px;
     height: 379px;
     padding: 0 30px;
@@ -784,11 +783,9 @@ body{
 }
 
 .plans_section{
-
     width: 393px;
     height: 1408px;
     padding-top: 90px;
-    padding-bottom: 120px;
     gap: 20px;
     background-color: white;
 }
@@ -876,14 +873,9 @@ body{
 }
 
 .benefits_text_2 p{
-
     font-size: 14px;
     align-self: flex-start;
-
 }
 
-.benefits_text_2 p{
-    /* font-size: 30px; */
-}
 
 
