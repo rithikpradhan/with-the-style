@@ -1,0 +1,889 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Zen+Kaku+Gothic+New&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+
+  background: #e8e8e8;
+  background: linear-gradient(90deg, rgba(232, 232, 232, 1) 0%, rgba(115, 192, 222, 1) 50%, rgba(177, 224, 224, 1) 100%);
+}
+
+@font-face {
+  font-family: 'OPTIBankGothic';
+  src: url('/src/fonts/OPTIBankGothic-Medium.woff2') format('woff2'),
+       url('/src/fonts/OPTIBankGothic-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.flex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-col{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.main_img{ 
+  width:393px;
+  height:650px;
+  position: relative;
+
+}
+
+.main_img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.logo{
+    position: absolute;
+    width: 310px;
+    height: 80px;
+    background-color:#FF6900 ;
+    top: 90px;
+    left:0;
+    padding-top: 10px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+}
+
+.logo img{
+    width: 277px;
+    height: 30px;
+    object-fit: contain;
+}
+
+/* Residention Section Styles */
+
+.hero-text{
+    width: 393px;
+    height: 798px;
+    background-color: white;
+    gap: 60px;
+
+}
+
+.hero-text p{
+    font-family: Zen Kaku Gothic New;
+    font-size: 18px;
+    font-weight:500;
+    line-height: 36px;
+    letter-spacing: 10%;
+    text-align: center;
+    width: 256px;
+    height: 108px;
+    color: #000000;
+    padding-top: 90px;
+}
+
+/* Residential Pictures Styles */
+
+.pictures{
+    width: 100%;
+    height: 540px;
+    gap: 10px;
+}
+
+.picture-1{
+    width: 100%;
+    height: 350px;
+}
+
+.picture-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.residential-pictures{
+    width: 100%;
+    height: 180px;
+    gap: 10px;
+}
+
+.picture-2{
+    width: 191.5px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.picture-3{
+    width: 191.5px;
+    height: 180px;
+    object-fit: cover;
+}
+
+
+.award-section{
+    width: 393px;
+    height: 370px;
+    background-color: white;
+    padding: 90px 0;
+}
+
+.award-section p{
+    font-family: 'OPTIBankGothic', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 10px;
+    text-align: center;
+    color: #000000;
+}
+
+.review-para{
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 100%;
+}
+
+
+.rating-section{
+    justify-content: space-between;
+    gap: 60px;
+    padding: 10px;
+}
+
+.rating-section img{
+    width: 189px;
+    height: 95px;
+}
+
+.rating-section p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.info{
+    width: 393px;
+    height: 923px;
+    padding: 50px 0;
+    gap: 40px;
+    background-color: #EEEEEE;
+    position: relative;
+}
+
+.bradal-fair{
+    position: absolute;
+    top: -40px;
+}
+
+.info p{
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.info-img{
+    width: 393px;
+    height: 340px;
+    flex-wrap: wrap;
+}
+
+.info-img-1{
+    width: 195px;
+    height: 170px;
+    position: relative;
+
+}
+
+.info-img-1 img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.info-text-1{
+    position: absolute;
+    background-color: #FF6900CC;
+    top: 20px;
+    color: white;
+    padding: 0 10px;
+
+}
+
+.info-text-2{
+    position: absolute;
+    background-color: #FF6900CC;
+    top: 50px;
+    color: white;
+    padding: 0 10px;
+}
+
+
+.info-img-2{
+    width: 195px;
+    height: 170px;
+    position: relative;
+
+}
+
+.info-img-2 img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.info-text-3
+{
+    position: absolute;
+    background-color: #FF6900CC;
+    top: 20px;
+    right: 0;
+    color: white;
+    padding: 0 10px;
+}
+
+.info-text-4{
+    position: absolute;
+    background-color: #FF6900CC;
+    top: 50px;
+    right: 0;
+    color: white;
+    padding: 0 10px;
+}
+
+
+.info-img-3{
+    width: 195px;
+    height: 170px;
+    position: relative;
+
+}
+
+.info-img-3 img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.info-text-5
+{
+    position: absolute;
+    background-color: #FF6900CC;
+    top: 20px;
+    color: white;
+    padding: 0 10px;
+}
+
+.info-text-6{
+    position: absolute;
+    background-color: #FF6900CC;
+    top: 50px;
+    color: white;
+    padding: 0 10px;
+}
+
+
+.info-img-4{
+    width: 195px;
+    height: 170px;
+    position: relative;
+
+}
+
+.info-img-4 img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.info-text-7
+{
+    position: absolute;
+    background-color: #FF6900CC;
+    top: 20px;
+    right: 0;
+    color: white;
+    padding:0 10px ;
+}
+
+.info-text-8{
+    position: absolute;
+    background-color: #FF6900CC;
+    top: 50px;
+    right: 0;
+    color: white;
+    padding:0 10px ;
+}
+
+
+/* Plans Section */
+
+.plans-section{
+
+    width: 393px;
+    height: 379px;
+    padding: 0 30px;
+}
+
+.special-plan{
+
+    width: 333px;
+    height: 50px;
+}
+
+.present-img{
+    width: 333px;
+    height: 195px;
+    padding: 30px 10px;
+}
+
+.visit-img{
+
+    width: 333px;
+    height: 74px;
+}
+
+/* About Section */
+
+.about{
+
+    width: 393px;
+    height: 1116px;
+    padding-top: 90px;
+    background-color: white;
+    gap: 20px;
+
+}
+
+.about span{
+    font-family: 'OPTIBankGothic', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 5px;
+    vertical-align: middle;
+    color: #000000;
+    border-bottom: solid 1px  #FF6900;
+    padding-bottom: 10px;
+}
+
+.about p{
+    font-family: 'OPTIBankGothic', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 5px;
+    vertical-align: middle;
+    color: #000000;
+}
+
+/* About Plans Styles */
+
+.first-plan{
+    width: 333px;
+    height: 912px;
+    gap: 35px;
+}
+
+.first-plan img{
+    width: 333px;
+    height: 250px;
+}
+
+.plan-content{
+    width: 333px;
+    height: 241px;
+    align-items: flex-start;
+    gap: 20px;
+
+}
+.plan-content p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing:0;
+    color: #0F0F0F;
+    text-align: left;
+}
+
+.plan-content-header{
+    width: 243px;
+    height: 55px;
+
+
+}
+
+.plan-content-header p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #000000;
+}
+
+.plan-img{
+    width: 326px;
+    height: 139px;
+    gap: 30px;
+}
+
+.plan-img img{
+    width: 148px;
+    height: 139px;
+}
+
+.voice_section{
+    width: 393px;
+    height: 937px;
+    padding-top: 90px;
+    gap: 20px;
+    background-color: white;
+}
+
+
+.voice_section span{
+    font-family: 'OPTIBankGothic', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 5px;
+    vertical-align: middle;
+    color: #000000;
+    border-bottom: solid 1px  #FF6900;
+    padding-bottom: 10px;
+}
+
+.review_section{
+    width: 393px;
+    height: 797px;
+    gap: 40px;
+}
+.review_frames{
+    height: 733px;
+    gap: 20px;
+}
+
+
+.frame{
+    height: 229px;
+    border: 1px solid #AAAAAA;
+    padding: 20px;
+    gap: 12px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.frame_title{
+    width: 293px;
+    height: 26px;
+    gap: 6px;
+    justify-content: start;
+}
+
+.frame_title img{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    
+}
+
+.frame-des{
+    font-weight: 300;
+    font-size: 13px;
+    letter-spacing: 0%;
+    color: #0F0F0F;
+
+
+}
+
+.promise_section{
+    width: 393px;
+    height: 2668px;
+    padding: 90px 0;
+    gap: 20px;
+    background-color: white;
+}
+
+.promise_section span{
+    font-family: 'OPTIBankGothic', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 5px;
+    vertical-align: middle;
+    color: #000000;
+    border-bottom: solid 1px  #FF6900;
+    padding-bottom: 10px;
+}
+
+.promises{
+    width: 319px;
+    gap: 60px;
+}
+
+.promises_title{
+    gap:20px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+
+}
+
+.promises_location{
+    width: 319px;
+    height: 400px;
+    gap: 20px;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.promises_location img{
+    width: 250px;
+    height: 250px;
+    align-self: flex-end;
+}
+
+.promises_location_title{
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    align-self: flex-start;
+
+}
+
+.promises_location_heading{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'OPTIBankGothic', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 5px;
+    color: #FF6900;
+    font-weight: 500;
+
+}
+
+.banquet{
+
+    width: 319px;
+    height: 400px;
+    gap: 20px;
+    justify-content: space-evenly;
+    position: relative;
+
+}
+
+.banquet img{
+    width: 250px;
+    height: 250px;
+    align-self: flex-start;
+
+}
+
+
+.banquet_heading{
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: end;
+    font-family: 'OPTIBankGothic', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 5px;
+    color: #FF6900;
+    font-weight: 500;
+}
+
+
+.venue_section{
+    width: 393px;
+    height: 992px;
+    background-color: white;
+    padding: 90px 0;
+    gap: 20px;
+    position: relative;
+
+}
+
+.venue_section img{
+    width: 363px;
+    height: 212px;
+    align-self: flex-end;
+}
+
+.img-text img{
+    width: 267px;
+    height: 85px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+.planners{
+    width: 333px;
+    height: 670px;
+    gap: 40px;
+}
+
+.planners img{
+    width: 333px;
+    height: 68px;
+
+}
+
+.planners-people img{
+
+    width: 333px;
+    height: 108px;
+}
+
+.about-plan{
+    width: 333px;
+    height: 196px;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.about-plan h4{
+
+    font-size: 14px;
+}
+
+.about-plan p{
+
+    font-size: 14px;
+}
+
+.about-plan-title{
+    gap: 10px;
+
+}
+
+
+.about-plan-title span{
+    font-family: 'OPTIBankGothic', sans-serif;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 5px;
+    color: #FF6900;
+    font-weight: 400;
+    align-self: flex-start;
+}
+
+.report{
+    width: 393px;
+    height: 1312px;
+    gap: 20px;
+    background-color: white;
+}
+
+.report h3{
+    font-family: 'OPTIBankGothic', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 5px;
+    vertical-align: middle;
+    color: #000000;
+    border-bottom: solid 1px  #FF6900;
+    padding-bottom: 10px;
+}
+
+.report_cards{
+    gap: 40px;
+    padding:0 30px;
+}
+
+.cards{
+    width: 333px;
+    height: 454px;
+    border: 1px solid  #AAAAAA;
+    padding: 30px 0;
+    gap: 20px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.cards span{
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    font-family: 'OPTIBankGothic', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    color:#FF6900;
+}
+
+.cards img{
+
+    width: 293px;
+    height: 164px;
+}
+
+
+.report_title{
+    width: 293px;
+    height: 41px;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0%;
+}
+
+.report_des{
+    width: 293px;
+    height: 119px;
+    font-size: 14px;
+}
+
+.card_link{
+    text-decoration: none;
+    align-self: flex-end;
+    padding: 10px;
+    color: #269EB6;
+    font-size: 13px;
+}
+
+.cards-2{
+    width: 333px;
+    height: 454px;
+    border: 1px solid  #AAAAAA;
+    padding: 30px 0;
+    gap: 20px;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.cards-2 img{
+
+    width: 293px;
+    height: 164px;
+
+}
+
+.cards-2 span{
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    font-family: 'OPTIBankGothic', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    color:#FF6900;
+}
+
+.plans_section{
+
+    width: 393px;
+    height: 1408px;
+    padding-top: 90px;
+    padding-bottom: 120px;
+    gap: 20px;
+    background-color: white;
+}
+
+.plans_section_title{
+    font-family: 'OPTIBankGothic', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 5px;
+    vertical-align: middle;
+    color: #000000;
+    border-bottom: solid 1px  #FF6900;
+    padding-bottom: 10px;
+}
+
+
+.plans_card{
+    width: 393px;
+    height: 1148px;
+    padding: 30px;
+    gap: 40px;
+}
+
+.plans_card_text{
+    font-size: 16px;
+}
+
+.plans_benefits{
+    width: 291px;
+    height: 470px;
+    border: 1px solid #AAAAAA;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding: 20px;
+        position: relative;
+
+}
+
+.plans_benefits_title{
+    align-self: flex-start;
+    font-weight: bold;
+}
+
+
+.plans_benefits img{
+    width: 293px;
+    height: 164px;
+}
+
+.benefits_text{
+    width: 293px;
+    height: 139px;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.benefits_text p{
+
+    font-size: 14px;
+
+}
+
+.benefits_text_1{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #AAAAAA;
+}
+
+.benefits_text_2{
+    width: 293px;
+    height: 76px;
+    gap: 5px;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
+
+.benefits_text_2 span{
+    width: 38px;
+    height: 20px;
+    background-color: #FF6900;
+    color: white;
+    padding: 0 5px;
+    align-self: flex-start;
+}
+
+.benefits_text_2 p{
+
+    font-size: 14px;
+    align-self: flex-start;
+
+}
+
+.benefits_text_2 p{
+    /* font-size: 30px; */
+}
+
+
